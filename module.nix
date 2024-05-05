@@ -52,7 +52,7 @@ in {
           SourceIpHeader      = ""               # If behind reverse proxy ( ex : X-FORWARDED-FOR )
           UploadWhitelist     = []               # Restrict upload and user creation to one or more IP range ( CIDR notation, /32 can be omitted )
 
-          MaxFileSizeStr      = "10GB"           # 10GB (or "unlimited")
+          MaxFileSizeStr      = "20GB"           # 10GB (or "unlimited")
           MaxUserSizeStr      = "unlimited"      # Default max uploaded size per user unless configured otherwise (or "unlimited")
           MaxFilePerUpload    = 1000
 
